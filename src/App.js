@@ -21,7 +21,7 @@ class App extends Component {
     })
     return (
       <div>
-      <h1 className='tc'>RoboFriends</h1>
+      <h1 className='tc'>Wall-E Robo Search built using ReactJS and Webpack</h1>
       <Searchbox searchChange={this.onSearchChange}/>
       <CardList robots= {filterRobot}/>
       </div>
